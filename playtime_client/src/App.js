@@ -1,6 +1,6 @@
 import React, {Component } from 'react';
 import Toys from './components/Toys'
-import './App.css';
+import './main.css';
 
 class App extends Component {
   state = {
@@ -21,6 +21,15 @@ class App extends Component {
     return (
       <div className="App">
         <div className="container">
+          <header>
+            <h1>Playtime</h1>
+            <nav>
+              <ul>
+                <li><a href="/toys">Home</a></li>
+                <li><a href="/toylist">Toy List</a></li>
+              </ul>
+            </nav>
+          </header>
           <main>
             <Toys toys={this.state.toys}/>
           </main>
