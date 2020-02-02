@@ -6,6 +6,8 @@ class CreateToys < ActiveRecord::Migration[6.0]
       t.string :ageRange
       t.string :imageUrl
       t.string :link
+
+      t.timestamps
     end
   end
 end

@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Work+Sans&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    background: #D8D693;
+    font-family: 'Work Sans', sans-serif;
+    text-align: center;
+    color: #3A405A;
+}
+nav {
+    background: #3A405A;
+    color: white;
+    padding: 10px;
+    font-size: 2.5vw;
+    ul {
+        display: flex;
+        justify-content: center;
+        li{
+            list-style: none;
+            padding: 2vw;
+            a:hover {
+                text-decoration: underline;
+            }
+        }
+    }
+}
+
+h1 {
+    font-family: 'Amatic SC', sans-serif;
+    color: #3A405A;
+    font-size: 16vw;
+    display: block;
+}
+main {
+    display: flex;
+    justify-content: center;
+}
+.toy {
+    background: white;
+    margin: 40px;
+    padding: 40px 0;
+    text-align: center;
+    border-radius: 5px;
+}
+h3 {
+    font-family: 'Amatic SC', sans-serif;
+    font-size: 3vw;
+}
+h4 {
+    margin: 1em 0;
+}
+img {
+    width: 200px;
+    border: 10px solid #D8D693;
+    border-radius: 5px;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+    padding: 10px;
+}
+a:hover {
+    background: #3A405A;
+    color: white;
+    border-radius: 5px;
+}
