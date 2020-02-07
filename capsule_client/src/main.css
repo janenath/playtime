@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,700|Open+Sans:400,700&display=swap");
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background: #F2F2F2;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  color: #191B1C; }
+
+header {
+  border-bottom: 5px solid #191B1C; }
+
+h1 {
+  font-family: 'Gentium Book Basic', serif;
+  font-weight: bold;
+  color: #191B1C;
+  font-size: 100px;
+  padding: 150px 0 50px 0;
+  letter-spacing: 2px;
+  display: block; }
+
+.addClothes {
+  padding: 50px; }
+
+h3 {
+  font-family: 'Gentium Book Basic', serif;
+  font-size: 5vw; }
+
+button {
+  font-family: 'Gentium Book Basic', serif;
+  font-size: 50px;
+  color: #697768;
+  background: #F2F2F2;
+  border: none;
+  margin: 50px 0 20px 0;
+  width: 100px;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: 5px; }
+
+button:hover,
+button:focus {
+  color: #F2F2F2;
+  background: #697768; }
+
+button:active {
+  transform: scale(0.95); }
+
+form {
+  width: 300px;
+  margin: 0 auto;
+  background: #E2E2E2;
+  color: #191B1C;
+  padding: 5px;
+  margin-bottom: 2em;
+  border: 5px solid #191B1C;
+  border-radius: 5px; }
+  form h4 {
+    font-family: 'Gentium Book Basic', serif;
+    padding: 20px;
+    font-size: 30px; }
+  form select {
+    margin-bottom: 20px;
+    background: #F2F2F2;
+    color: #191B1C; }
+  form input {
+    border: 1px solid #191B1C;
+    background: #F2F2F2;
+    color: #191B1C;
+    padding: 0.5em;
+    margin: 0.5em; }
+  form .submit {
+    background: #697768;
+    font-family: inherit;
+    border: none;
+    padding: 1em;
+    border-radius: 5px;
+    color: #F2F2F2;
+    font-weight: bold; }
+
+img {
+  width: 200px;
+  border: 5px solid #191B1C;
+  border-radius: 5px; }
+
+/*# sourceMappingURL=main.css.map */

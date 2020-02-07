@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css?family=Gentium+Book+Basic:400,700|Open+Sans:400,700&display=swap');
+$white : #F2F2F2;
+$moss : #AAAE8E;
+$green : #697768;
+$black : #191B1C;
+$grey: #E2E2E2;
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+body {
+    background: $white;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    color: $black;
+}
+header {
+    border-bottom: 5px solid $black;
+}
+h1 {
+    font-family: 'Gentium Book Basic', serif;
+    font-weight: bold;
+    color: $black;
+    font-size: 100px;
+    padding: 150px 0 50px 0;
+    letter-spacing: 2px;
+    display: block;
+}
+.addClothes {
+    padding: 50px;
+}
+h3 {
+    font-family: 'Gentium Book Basic', serif;
+    font-size: 5vw;
+}
+button {
+    font-family: 'Gentium Book Basic', serif;
+    font-size: 50px;
+    color: $green;
+    background: $white;
+    border: none;
+    margin: 50px 0 20px 0;
+    width: 100px;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+button:hover,
+button:focus {
+    color: $white;
+    background: $green;
+}
+button:active {
+    transform: scale(0.95);
+}
+form {
+    width: 300px;
+    margin: 0 auto;
+    background: $grey;
+    color: $black;
+    padding: 5px;
+    margin-bottom: 2em;
+    border: 5px solid $black;
+    border-radius: 5px;
+    h4 {
+        font-family: 'Gentium Book Basic', serif;
+        padding: 20px;
+        font-size: 30px;
+    }
+    select {
+        margin-bottom: 20px;
+        background: $white;
+        color: $black;
+    }
+    input {
+        border: 1px solid $black;
+        background: $white;
+        color: $black;
+        padding: 0.5em;
+        margin: 0.5em;
+    }
+    .submit {
+        background: $green;
+        font-family: inherit;
+        border: none;
+        padding: 1em;
+        border-radius: 5px;
+        color: $white;
+        font-weight: bold;
+    }
+}
+img {
+    width: 200px;
+    border: 5px solid $black;
+    border-radius: 5px;
+}
