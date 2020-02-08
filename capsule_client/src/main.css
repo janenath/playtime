@@ -81,8 +81,25 @@ form {
     font-weight: bold; }
 
 img {
-  width: 200px;
+  width: 200px; }
+
+.section {
+  margin-top: 50px; }
+
+.itemsBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 5px solid #191B1C; }
+
+.clothesContainer {
+  margin: 50px; }
+
+.clothes {
   border: 5px solid #191B1C;
   border-radius: 5px; }
+
+.selectedItem {
+  border: 5px #697768 solid; }
 
 /*# sourceMappingURL=main.css.map */

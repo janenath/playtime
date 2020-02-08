@@ -93,6 +93,26 @@ form {
 }
 img {
     width: 200px;
+
+}
+.section {
+    margin-top: 50px;
+}
+.itemsBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 5px solid $black;
+}
+.clothesContainer {
+    margin: 50px;
+
+}
+.clothes {
     border: 5px solid $black;
     border-radius: 5px;
+    
+}
+.selectedItem {
+    border: 5px $green solid;
 }
