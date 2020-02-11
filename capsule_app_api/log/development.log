@@ -16729,3 +16729,9 @@ Processing by ItemsController#index as */*
 Completed 200 OK in 120ms (Views: 23.7ms | ActiveRecord: 95.3ms | Allocations: 5400)
 
 
+Started GET "/" for ::1 at 2020-02-10 21:48:08 -0800
+  [1m[35m (1.5ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by WelcomeController#index as HTML
+Completed 200 OK in 1ms (Views: 0.5ms | ActiveRecord: 0.0ms | Allocations: 174)
+
+
