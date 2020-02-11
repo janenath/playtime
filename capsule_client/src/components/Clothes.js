@@ -15,8 +15,8 @@ class Clothes extends Component {
     //     return thisSection
     // }
     // renderSection = (section) => {
-    //     this.filterItems(section).map(item => {
-    //         return(
+    //     return(this.filterItems(section).map(item => {
+    //       return()
     //         <div className="clothesContainer">
     //             <div key={item.id} className={`clothes ${item.category} ${item.selected}`}>
     //                 <img src={item.image} alt="clothing item"></img>
@@ -25,6 +25,7 @@ class Clothes extends Component {
     //         </div>
     //         )
     //     })
+    // )
     // } 
 
     render() {
